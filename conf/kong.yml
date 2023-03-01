@@ -1,4 +1,5 @@
 _format_version: "1.1"
+_transform: true
 
 services:
   - name: learn_microservice
@@ -17,7 +18,6 @@ services:
         paths: 
           - "/users"
         strip_path: true
-
 plugins:
   - name: rate-limiting
     config:
